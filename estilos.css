@@ -1,0 +1,946 @@
+body{
+    width: 100%;
+    margin: 0px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #FFFFFF;
+   
+}
+/*seccion cabecera*/
+.cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #363535;
+    background-color: #f02828;
+   
+}
+
+.navega a{
+    padding: 7px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+nav a:hover{
+    color: chocolate;
+}
+
+.red{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+/*tamaño celulares-----------------------------------------------------*/
+@media(max-width:560px){
+    .cabecera{
+        height: 100%;
+        gap: 5px;}
+       
+    .cabecera > img{
+        width: 70px;
+    }
+
+    .cabecera .red img{
+        width: 35px;
+        height: 35px;
+        padding: 0px;
+        justify-content: space-between;
+    }
+
+    .cabeza .navega {
+        width: 80px;
+        height: 80px;  
+        font-size: 10px;
+        padding: 0px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .cabeza .navega a{
+        width: 500px;
+        height: 10px;  
+        font-size: 10px;
+        padding: 1px;
+    }
+   
+   
+}
+
+
+
+
+
+
+/*Seccion banner ppal*/
+
+.banner-ppal{
+    width: 100%;
+    height: 600px;
+    background-image: url(/imagenes/banner.png);
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    }
+    
+    .banner-ppal div{
+    width: 500px;
+    height: 230px;
+    margin: 100px;
+    margin-bottom: 300px;
+
+    }
+    .banner-ppal div img{
+        height: 250px;
+        margin-bottom: -50px;
+        margin-left: -40px;
+   
+    }
+    
+    .banner-ppal div h1{
+        margin: 0;
+        font-size: 40px;
+        color: whitesmoke;
+        
+    }
+    
+    
+    .banner-ppal div a{
+        font-size: 20px;
+        color: bisque;
+        text-align: center;
+        border-radius: 4px;
+       
+    }
+    
+    .banner-ppal div a{
+       text-decoration: none;
+       color: white;
+       background-color:rgb(210, 57, 30);
+       padding: 10px 15px;
+       
+    
+    }
+
+    /*tamaño celulares-----------------------------------------------------*/
+    @media(max-width:560px){ 
+
+        .banner-ppal{
+            width: 100%;
+            height: 200px;
+            background-size: 100%;
+            display: flex;
+            align-items: center;
+            }
+    .banner-ppal div{
+        width: 100%;
+        height: 200px;
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+            .banner-ppal div img{
+                height: 100px;
+                margin-bottom: -25px;
+                margin-left: 40px;
+           
+            }
+    
+            .banner-ppal div h1{
+                margin-left: -130px;
+                margin-top: 0;
+                font-size: 20px;
+                color: whitesmoke;
+       
+            }
+            
+            
+            .banner-ppal div a{
+                margin-left: 70px;
+                text-decoration: none;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                background-color:rgb(210, 57, 30);
+                border-radius: 4px;
+                padding: 8px;
+                margin-top: 15px;
+               
+            }
+    
+    }
+/*seccion banner2*/
+
+
+.banner2{
+    display: flex;
+    align-items: center;
+ 
+}
+
+.banner2 .big{
+    width: 1200px;
+    margin-left: 150px;
+}
+ .banner2 div{
+
+align-items: center;
+
+}
+
+.banner2 .text1 img{
+    height: 250px;
+    margin-left: -40px;
+    margin-bottom: -60px;
+    
+}
+
+.banner2 .text1  p{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.banner2 .text1 li{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  
+  margin-left: -25px;
+
+}
+.banner2 .text1 a{
+        text-decoration: none;
+       color: white;
+       background-color:rgb(210, 57, 30);
+       padding: 10px 15px;
+       border-radius: 4px;
+       
+       
+}
+
+/*tamaño celular banner2*/
+@media(max-width:560px){
+    .banner2{
+        display: flex;
+            flex-direction: column;
+        align-items: center;
+    
+    
+     
+    }
+    .banner2 .big{
+     width: 250px;
+   margin-left: 35px;
+     
+   
+    }
+    .banner2 .big img{
+        width: 200px;
+       margin-left: 0px;
+       
+      
+    }
+    .banner2 .text1{
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner2 .text1 img{
+        width: 250px;
+        height: 250px;
+       
+        margin-bottom: -6px;
+        
+    }
+    .titulo2{
+        font-size: 19px;
+        margin-top: -8px;
+    }
+    
+    .banner2 .text1  p{
+        width: 300px;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .banner2 .text1 li{
+        width: 300px;
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 0px;
+    
+    }
+    .banner2 .text1 a{
+           text-decoration: none;
+           color: white;
+           background-color:rgb(210, 57, 30);
+           padding: 8px;
+           border-radius: 4px;
+           font-size: 15px;
+      
+    }
+
+    
+}
+/*seccion banner3*/
+#banner3{
+    display: flex;
+    justify-content: space-around;
+}
+
+#banner3 .bannerint1{
+    width: 30%;
+    height: 230px;
+    background-image: url(/imagenes/gourmet/gourmet1.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   
+  
+    }
+    
+
+    #banner3 .bannerint1 div img{
+        width: 100px;
+        height: 100px;
+        margin-left: -25px;
+    }
+
+ 
+    #banner3 .bannerint1 div .desc {
+        margin: 2px;
+        font-size: 15px;
+        color: white
+      
+    }
+
+    #banner3 .bannerint1 div {
+        
+       display: flex;
+       flex-direction: column;
+        margin-top: 10px;
+        margin-bottom:2px;
+        align-items: center;
+        margin-left: 2px ;
+        justify-content: space-evenly;
+    }
+    /**/
+
+    
+#banner3 .bannerint2{
+    width: 30%;
+    height: 230px;
+    background-image: url(/imagenes/gourmet/gourmet2.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   
+  
+    }
+    
+
+    #banner3 .bannerint2 div img{
+        width: 100px;
+        height: 100px;
+        margin-left: -25px;
+    }
+
+ 
+    #banner3 .bannerint2 div .desc {
+        margin: 2px;
+        font-size: 15px;
+        color: white
+      
+    }
+
+    #banner3 .bannerint2 div {
+        
+       display: flex;
+       flex-direction: column;
+        margin-top: 10px;
+        margin-bottom:2px;
+        align-items: center;
+        margin-left: 2px ;
+        justify-content: space-evenly;
+    }
+    /**/
+
+    
+#banner3 .bannerint3{
+    width: 30%;
+    height: 230px;
+    background-image: url(/imagenes/gourmet/gourmet3.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   
+  
+    }
+    
+
+    #banner3 .bannerint3 div img{
+        width: 100px;
+        height: 100px;
+        margin-left: -25px;
+    }
+
+ 
+    #banner3 .bannerint3 div .desc {
+        margin: 2px;
+        font-size: 15px;
+        color: white
+      
+    }
+
+    #banner3 .bannerint3 div {
+        
+       display: flex;
+       flex-direction: column;
+        margin-top: 10px;
+        margin-bottom:2px;
+        align-items: center;
+        margin-left: 2px ;
+        justify-content: space-evenly;
+    }
+    /*tamaño celular banner3*/
+    @media(max-width:560px){
+
+
+        #banner3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 20px;
+           width: 100%;
+        }
+        #banner3 .bannerint1,
+        #banner3 .bannerint2,
+        #banner3 .bannerint3
+         {
+            width: 100%;
+            margin: 5px;
+          
+        }
+    
+    }
+    /*Seccion banner4 y menu*/
+    /*entrada*/
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrada img{
+    width: 250px;
+   position: relative;
+   margin-bottom: -90px;
+}
+.entrada h1{
+    font-size: 25px;
+}
+
+.entrada p{
+    text-align: center;
+
+}
+  /*tamaño celular banner4*/
+  @media(max-width:560px){
+    .entrada p{
+        font-size: 20px;
+    
+    } 
+}
+    /*galeria de imagenes*/
+
+    
+h1{
+    color:black;
+    text-align: center;
+}
+
+.menu{
+    width: 100%;
+    height: 1550px;
+    border:0px;
+   
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.item-1{
+    background-color:#FFFFFF ;
+    border: 1px ridge;
+    border-color:#FFFFFF ;
+    width: 350px; 
+    height: 340px;
+    border-radius: 7px;
+    margin-top: 50px; 
+    margin-bottom: 10px;
+   
+  
+}
+.item-1>h3{
+    color: black;
+    text-align: center;
+}
+
+.item-1>P{
+    color: grey;
+    text-align: center;
+}
+.item-1>.imag{
+    width: 100%;
+    height: 320px;
+}
+    /*tamaño celular galeria*/
+
+@media(max-width:560px){
+
+    .menu{
+        width: 100%;
+        height: 1550px;
+        border:0px;
+        display:flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+    .item-1{
+        background-color:#FFFFFF ;
+        border: 1px ridge;
+        border-color:#FFFFFF ;
+        width: 175px; 
+        height: 170px;
+        border-radius: 7px;
+        margin-top: 50px; 
+        margin-bottom: 10px;
+ 
+    }
+    .item-1>h3{
+        color: black;
+        text-align: center;
+    }
+    
+    .item-1>P{
+        color: grey;
+        text-align: center;
+    }
+    .item-1>.imag{
+        width: 100%;
+        height: 160px;
+
+    }
+
+}
+
+
+  /*BOTON FULL MENU*/
+.full{
+    display:flex;
+    justify-content:space-around;
+ 
+}
+.full> a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(210, 57, 30);
+    padding: 10px 15px;
+    border-radius: 4px; 
+}
+/*medidas full menu para celular*/
+@media(max-width:560px){
+    .full> a{
+        margin-top: 35px;
+    
+      
+    }
+}
+
+/*Seccion comentarios*/
+.coment{
+    width: 100%;
+display: flex;
+
+margin-top: 50px;
+}
+
+.coment img{
+   width: 100%;
+    height: 416px;
+}
+
+.coment iframe{
+    width: 800px;
+     height: 416px;
+ }
+/*medidas comentarios para celular*/
+@media(max-width:560px){
+    .coment{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .coment img{
+        width: 100%;
+         height: 200px;
+     }
+     
+     .coment iframe{
+         width: 100%;
+        height: 230px;
+      }
+    }
+     /*entrada2*/
+    
+.entrada2{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.entrada2 p{
+    text-align: center;
+
+}
+.entrada2 img{
+    width: 250px;
+   position: relative;
+   margin-bottom: -90px; 
+}
+
+/*medidas entrada para celular*/
+@media(max-width:560px){
+   
+    .entrada2 p{
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .entrada2 img{
+        width: 250px;
+       position: relative;
+       margin-bottom: -90px;
+      
+    }
+
+}
+ /* GENTE COMIENDO*/
+
+.come{
+    width: 60%;
+    height: 600px;
+    margin-left: 265px;
+    margin-top: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+  
+ 
+}
+.item-2{
+    background-color:#FFFFFF ;
+    border: 1px ridge;
+    border-color:#FFFFFF ;
+    width: 260px; 
+    height: 260px;
+    border-radius: 7px;
+ 
+}
+
+
+.item-2>.imag{
+    width: 100%;
+    height: 260px;
+}
+
+/*medidas gente comiendo para celular*/
+@media(max-width:560px){
+
+    .come{
+        width: 100%;
+        height: 300px;
+        margin-top: 15px;
+        display:flex;
+        flex-direction: row;
+        margin:0%
+    }
+    .item-2>.imag{
+        width: 130px;
+        height: 130px;
+    }
+    .item-2{
+        background-color:#FFFFFF ;
+        border: 1px ridge;
+        border-color:#FFFFFF ;
+        width: 130px; 
+        height: 190px; 
+    }
+}
+/*seccion roja*/
+
+.rojo{
+    width: 100%;
+    height: 200px;
+    background-color:#DF3A2C ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rojo h2{
+    color: whitesmoke;
+    font-size: 20PX;
+}
+
+.rojo p{
+    color: whitesmoke;
+    font-size: 15PX;
+}
+
+.rojo a{
+    color: whitesmoke;
+    font-size: 15PX;
+    padding: 15px;
+    background-color: #ECB223;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.rojo #form{
+    width: 275px;
+    display:flex;
+   justify-content: space-between;
+}
+
+/*medidas seccion roja para celular*/
+@media(max-width:560px){
+.rojo{
+    height: 200px;
+    margin-top: 260px;
+    width: 100%;
+    }
+
+    .rojo h2{
+        font-size: 15PX;
+
+    }
+
+.rojo > div{
+    margin-left: 30px;
+    margin-top: -40px;
+}
+.rojo + div{
+    height: 180px;
+}
+.rojo #form{
+    width: 240px;
+    display:flex;
+    flex-direction: column;
+   justify-content: space-between;
+margin-right: 20px;
+}
+.rojo a{
+  
+    font-size: 15PX;
+    padding: 10px;   
+}
+
+}
+
+/*seccion mapa*/
+
+.map{
+    width: 100%;
+
+}
+
+.map iframe{
+    width: 100%;
+}
+
+/*seccion informacion*/
+
+
+.info {
+  
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content:space-around;
+    background-color: #222123;
+    color: rgb(170, 169, 169);
+
+}
+
+.info #logou{
+    width: 400px;
+    
+    }
+
+.info #logou img{
+    width: 200px;
+    height: 110px;
+    }
+
+   .info2{
+    display: flex;
+    width: 650px;
+    margin-left: -160px;
+    justify-content: space-around;
+   } 
+
+
+.info .info2 .direccion h2{
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+}
+
+
+
+.info .info2 .direccion {
+font-size: 14px;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.info .info2 .direccion .posi {
+align-items: center;
+    display: flex;
+    font-weight: normal;
+    
+}
+
+.info .info2 .direccion .posi img{
+    width: 15px;
+    height: 15px;
+      
+    }
+.info .info2 .direccion .posi h3{                    
+    font-weight: normal;
+    }
+
+    /*tamaño celular seccion informacion*/
+@media(max-width:560px){
+  
+    .info {
+        margin-top: 250px;
+        width:100%;
+        height: 950px;
+        justify-content: space-around;
+    }
+    .info #logou{
+        width: 400px;
+        margin-top: -630px;
+        margin-left: 30px;
+       
+    }
+   
+    
+    .info #logou img{
+        width: 200px;
+        height: 110px;
+        margin-left: 50px;
+      
+        }
+        
+    .info #logou p{
+     font-size: 20px;
+     margin-left: 50px;
+     text-align: center;
+        
+       
+ 
+      
+        }
+    
+     .info .info2{
+        display: flex;
+        flex-direction: column;
+        margin-left: -190px;
+        margin-bottom: -200px;
+     }
+    
+
+}
+   
+
+
+
+/*Pie de pagina*/
+
+.pie {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content:space-around;
+    background-color: #363535;
+
+}
+
+.pie p{
+    color: grey;
+    margin-left: 20px;
+}
+
+.pie p:hover{
+   font-size: 30px;
+    color: chocolate;
+}
+
+.pie div img{
+width: 30px;
+height: 30px;
+padding: 6px;
+
+}
+.pie div img:hover{
+    width: 35px;
+    height: 35px;
+  
+    
+    }
+
+.pie .links {
+font-size: 15px;
+align-items: flex-start;
+
+}
+
+.pie nav a{
+text-decoration: none;
+color: grey;
+padding: 5px;
+}
+.pie nav a:hover{
+  padding: 15px;
+    color:chocolate;
+    }
+/*tamaño celular seccion pie*/
+    @media(max-width:560px){
+      .pie{
+        height: 180px;
+      }  
+    }
