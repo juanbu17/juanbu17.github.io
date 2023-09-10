@@ -1,0 +1,260 @@
+body{
+    background: #0F2027; 
+ background: -webkit-linear-gradient(to bottom, #020e13, #203A43, #0F2027); 
+ background: linear-gradient(to bottom, #020e13, #203A43, #0F2027); 
+ 
+ }
+
+@font-face {
+    font-family:Fashion Fetish Light Italic  ;
+    src: url(/fonts/Fashion\ Fetish\ Light\ Italic.ttf);
+    font-family:Fashion Fetish Small Caps ;
+    src: url(/fonts/Fashion\ Fetish\ Small\ Caps.ttf);
+ 
+  }
+  /*barra de navegacion*/
+
+  .logo img {
+    width: 200px;
+}
+
+.fondo{
+    background-image: url(imgs/bannerppal.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.divsombra{
+    padding: 5px 5px 5px 5px;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.356)  ;  
+    border-radius: 35px 35px 35px 35px;
+    margin-bottom: 50px; 
+    align-items: center; 
+ }
+
+ .sombreado{
+    color: whitesmoke;
+    font-family:Fashion Fetish Small Caps ;
+    font-size: 20px;
+    
+ }
+
+ /*titulo fotografia de paisajes*/
+ .titFP {
+
+    text-align: center;
+ }
+
+ .titFP h1{
+   
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Fashion Fetish Small Caps ;
+    font-size: 55px;
+    font-weight: bolder;
+    text-shadow: rgb(204, 141, 82) 0 3px;
+ }
+
+/*cuadros*/
+
+.cuadros{
+    margin-top:30px;
+  }
+  .cuadros{
+ 
+     font-size: 10px;
+     color: whitesmoke;
+     font-weight: 2px;
+     align-items: center;
+     text-align: center;
+     background-color:rgba(0, 0, 0, 0.555);
+    
+  }
+ 
+   .cuadros .interno h2{
+    margin-top: 15px; 
+    font-size: 13px;
+    color: whitesmoke;
+    font-family: Fashion Fetish Small Caps;
+    font-weight: bolder;
+   }
+ 
+   .cuadros .interno h3{
+     font-size: 13px;
+     color: rgba(245, 245, 245, 0.425);
+     margin-top: -5px;
+ 
+    }
+    /*CARRUSEL NUMERADO*/
+
+
+ .numerales img{
+    width: 120px !important;
+ }
+
+ @media(max-width:560px){ 
+
+   .numerales img{
+       width: 50px !important;
+       height: 50px !important;
+
+       }
+      }
+
+/* titulos top clases de fotos*/
+.fotoclases1{
+    font-family: Fashion Fetish Small Caps ;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.fotoclases2{
+   color: whitesmoke;
+   font-family: Fashion Fetish Small Caps;
+   font-weight: bolder;
+   font-size: 30px;
+   text-shadow: rgb(204, 141, 82) 0 3px;
+}
+
+/*carrusel de fotos1 */
+.carrus1{
+   height: 700px;
+}
+@media(max-width:560px){ 
+
+   .carrus1{
+       width: 100%;
+       height: 200px;
+       background-size: 100%;
+       display: flex;
+       align-items: center;
+       }
+      }
+
+/*galeria de fotos*/
+#galeria .col-lg-4{
+   margin: 0;
+padding: 25px;
+}
+
+#galeria img{
+width: 100%;
+height: 400px;
+border-radius: 5px;
+}
+#galeria img:hover{
+   border: 2px rgb(185, 112, 15) solid;
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px 3px rgb(209, 115, 115);
+}
+#galeria h1{
+   font-family: Fashion Fetish Small Caps;
+   font-weight: bolder;
+   font-size: 30px;
+   
+
+}
+
+/*galeria fotografos*/
+
+.premios{
+   margin-top: 50px;
+   font-family: Fashion Fetish Small Caps;
+}
+
+@media(max-width:560px){ 
+   #galeriafoto .row .fotografo img{
+     height: 350px;
+     }
+  }
+  #galeriafoto img{
+     width: 100%;
+     height: 500px;
+     border-radius: 5px;
+    
+     }
+
+     #galeriafoto img:hover{
+        border: 3px rgb(236, 231, 224) solid;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px 5px rgb(175, 170, 170);
+     }
+
+.card img{
+
+   height: 600px;
+ 
+}
+@media(max-width:560px){
+   .card img {
+      width: 100%;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+   } 
+}
+
+@media(max-width:560px){ 
+   .opina{
+    flex-wrap: wrap;
+     }
+   }
+
+   .fondo2{
+      background-image: url(imgs/fondo2.jpg);
+      height: 90vh;
+      background-position: center;
+      background-size: cover;
+  
+  }
+  .divsombra2{
+   padding: 25px 5px 5px 5px;
+   width: 100%;
+   background-color:transparent  ;  
+font-family: Fashion Fetish Small Caps ;
+   margin-bottom: 90px; 
+   align-items: center; 
+}
+
+.sombreado{
+   color: whitesmoke;
+   font-family:Fashion Fetish Small Caps ;
+   font-size: 20px;
+   
+}
+
+/*titulo fotografia de paisajes*/
+.titFP {
+
+   text-align: center;
+}
+
+.titFP2 h1{
+  
+   color: whitesmoke;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: Fashion Fetish Small Caps ;
+   font-size: 45px;
+   font-weight: bolder;
+   text-shadow: rgb(204, 141, 82) 0 3px;
+}
+.aprende{
+   padding-top: 35px;
+}
+@media(max-width:560px){ 
+   .redes{
+    display: flex;
+    flex-direction: row;
+  
+     }
+   }
+   @media(max-width:560px){ 
+      .redes img{
+       padding: 10px;
+        }
+      }
